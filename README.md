@@ -1,2 +1,2 @@
 # Cryptic
-All About @Cryptic-Techs
+All About **[Cryptic Technologies](https://github.com/Cryptic-Techs)**
