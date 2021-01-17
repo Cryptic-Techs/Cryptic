@@ -5,10 +5,7 @@
 
 body
 {
-	background: url("https://raw.githubusercontent.com/Cryptic-Techs/Cryptic/Default/Cryptic%20Icon.jpg");
-	background-size: 100% auto;
-	background-repeat: no-repeat;
-	background-color: black;
+	background: black;
 	text-align: center;
 	word-wrap: break-word;
 }
@@ -22,16 +19,26 @@ body
 	}
 }
 
+cont
+{
+	background: url("https://raw.githubusercontent.com/Cryptic-Techs/Cryptic/Default/Cryptic%20Icon.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vw;
+	max-width: 500px;
+	max-height: 500px;
+	margin: auto;
+}
+
 #head_box
 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	width: 100vw;
-	height: 100vw;
-	max-width: 500px;
-	max-height: 500px;
+	width: 100%;
+	height: 100%;
 	background: rgba(0,0,0,0.5);
 	border-bottom: 1px solid lime;
 	margin: auto;
