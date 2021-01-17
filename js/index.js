@@ -9,10 +9,8 @@ const init = () =>
 			for (let x in repos)
 			{
 				request(repos[x].url).then(repo =>
-				{
-					console.log(JSON.stringify(repo));
-					
-					repo = GITHUB.getRepoDatas(repo);
+				{					
+					repo = GITHUB.getRepoDatas(JSON.parse(repo));
 					
 					if (!repo.forked)
 					{
