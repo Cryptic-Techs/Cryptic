@@ -10,15 +10,6 @@ body
 	word-wrap: break-word;
 }
 
-@media (min-width: 500px)
-{
-	body
-	{
-		background-size: 500px auto;
-		background-position: calc(100vw - (500px / 2)) 0;
-	}
-}
-
 cont
 {
 	display: block;
