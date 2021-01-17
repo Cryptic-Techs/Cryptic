@@ -1,1 +1,77 @@
+*
+{
+	color: white;
+}
 
+body
+{
+	background: url("https://raw.githubusercontent.com/Cryptic-Techs/Cryptic/Default/Cryptic%20Icon.jpg");
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-color: black;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+#head_box
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vw;
+	background: rgba(0,0,0,0.5);
+	border-bottom: 1px solid lime;
+	margin-bottom: 5vw;
+}
+
+#head_box h1
+{
+	text-shadow: 0 0 25px black;
+}
+
+#head_box a
+{
+	-webkit-backdrop-filter: blur(15px);
+	backdrop-filter: blur(15px);
+	text-decoration: none;
+	border-radius: 5px;
+	padding: 3px 7px;
+	background: linear-gradient(115deg,rgba(0,0,0,0.5),rgba(0,0,0,0),rgba(0,0,0,0.5));
+	box-shadow: 0 0 10px rgba(25,25,25,0.3);
+}
+
+.repo
+{
+	display: inline-block;
+	width: 80vw;
+	max-width: 300px;
+	background: linear-gradient(115deg,rgba(100,100,100,0.4),rgba(0,200,0,0.3));
+	border: 2px solid rgba(100,100,100,0.4);
+	border-radius: 12px;
+	margin: 10px;
+	padding: 5px;
+}
+
+.repo:hover
+{
+	background: linear-gradient(115deg,rgba(100,100,100,0.8),rgba(0,200,0,0.6));
+}
+
+.repo > *
+{
+	margin-bottom: 5px;
+}
+
+.repo > bar
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 90%;
+	background: rgba(0,0,0,0.2);
+	border-radius: 5px;
+	margin-left: 5%;
+	padding: 5px;
+}
