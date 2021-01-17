@@ -1,1 +1,16 @@
+header > #fixed
+{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: lime;
+	opacity: 0;
+	transform: translateY(-100%);
+	transition: opacity 600ms, transform 600ms;
+}
 
+header > #fixed.active
+{
+	opacity: 1;
+	transform: translateY(0);
+}
