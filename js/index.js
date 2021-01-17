@@ -8,7 +8,7 @@ const init = () =>
 			
 			for (let x in repos)
 			{
-				request(`https://api.github.com/repos/${repos[x].full_name}`).then(repo =>
+				request(repos[x].url).then(repo =>
 				{
 					console.log(JSON.stringify(repo));
 					
