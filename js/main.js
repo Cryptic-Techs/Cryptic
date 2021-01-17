@@ -19,7 +19,7 @@ const GITHUB = Object.freeze({
 			public: !repo.private,
 			stars: Formate(repo.stargazers_count),
 			url: repo.html_url,
-			watchers: Formate(repo.watchers_count)
+			watchers: Formate(repo.subscribers_count)
 		};
 	}
 });
