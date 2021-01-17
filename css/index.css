@@ -21,6 +21,7 @@ body
 
 cont
 {
+	display: block;
 	background: url("https://raw.githubusercontent.com/Cryptic-Techs/Cryptic/Default/Cryptic%20Icon.jpg");
 	background-size: 100% auto;
 	background-repeat: no-repeat;
