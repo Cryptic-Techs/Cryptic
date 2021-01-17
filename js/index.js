@@ -10,6 +10,8 @@ const init = () =>
 			{
 				request(`https://api.github.com/repos/${repos[x].full_name}`).then(repo =>
 				{
+					console.log(JSON.stringify(repo));
+					
 					repo = GITHUB.getRepoDatas(repo);
 					
 					if (!repo.forked)
